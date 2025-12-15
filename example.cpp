@@ -19,7 +19,7 @@ uint8_t mode = MODE_USB;
 
 #define PTT_RX 0
 #define PTT_TX 1
-uint8_t ptt = PTT_TX;
+uint8_t ptt = PTT_RX;
 
 void catSetPtt(bool catPTT) {
 	if (catPTT) {
